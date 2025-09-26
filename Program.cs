@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace bai4
+namespace bai3
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace bai4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmpheptinh());
+            Application.Run(new Frmcombobox());
         }
     }
 }
